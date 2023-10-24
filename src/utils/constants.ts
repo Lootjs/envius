@@ -1,0 +1,1 @@
+export const MAX_LENGTH_TO_KEY = 12;

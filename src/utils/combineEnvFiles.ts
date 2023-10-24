@@ -1,7 +1,7 @@
 import {type EnvData, parseEnvFile} from "./parseEnvFile";
 import {MAX_LENGTH_TO_KEY} from "./constants";
 
-type ResultData = {
+export type ResultData = {
     [key: string]: EnvData & {
         variants: string[]
     }

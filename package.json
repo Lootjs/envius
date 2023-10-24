@@ -24,6 +24,10 @@
       {
         "command": "envius.create-process-types",
         "title": "Create types for process.env"
+      },
+      {
+        "command": "envius.create-import-meta-types",
+        "title": "Create types for import.meta.env"
       }
     ],
     "capabilities": {

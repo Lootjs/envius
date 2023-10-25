@@ -11,8 +11,7 @@ export const processImportMetaEnvGeneratorCommand = async (envVars: ResultData) 
 		return [];
 	}
 
-	let output = '/// <reference types="vite/client" />\n\n' +
-		'interface ImportMeta {\n' +
+	let output = 'interface ImportMeta {\n' +
 		'  env: {\n';
 
 	output += generateTypes({ indent: 4, state: envVars });

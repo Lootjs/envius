@@ -2,7 +2,9 @@
   "name": "envius",
   "displayName": "envius",
   "description": "Enrich your experience with end files through autocompletion and TypeScript type generation",
-  "version": "0.0.1",
+  "publisher": "Lootjs",
+  "version": "0.0.2",
+  "icon": "icon.png",
   "engines": {
     "vscode": "^1.83.0"
   },

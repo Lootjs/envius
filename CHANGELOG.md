@@ -1,9 +1,5 @@
-# Change Log
+0.0.2
+====
 
-All notable changes to the "envius" extension will be documented in this file.
-
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
-
-- Initial release
+## Bug Fixes
+- Исправлен баг, не находились подсказки для import.meta.env

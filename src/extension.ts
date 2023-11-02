@@ -15,14 +15,14 @@ const getState = async () => {
 };
 
 export async function activate(context: vscode.ExtensionContext) {
-	vscode.window.showWarningMessage(`Found EnviUs`);
+	// vscode.window.showWarningMessage(`Found EnviUs`);
 	const ws = getWorkspace();
 	if (!ws) {
 		return;
 	}
 
 	state = await getState();
-	// console.log(state);
+	console.log(state);
 	let commandForProcessEnv = vscode.commands.registerCommand('envius.create-process-types', () => {
 		processEnvGeneratorCommand(state);
 	});

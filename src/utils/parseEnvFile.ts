@@ -1,7 +1,8 @@
 import * as vscode from 'vscode';
 import { getWorkspace } from "./getWorkspace";
 import { readFileSync } from 'fs';
-import { EOL } from 'os';
+import {EOL} from "os";
+// import { EOL } from 'os';
 
 export type PossibleEnvValueType = 'string' | 'number' | 'boolean';
 export type EnvData = {
@@ -26,7 +27,7 @@ const determineType = (value: string): string => {
 const parseEnv = (content: string): EnvData[] => {
     // @ts-ignore
     return content
-        .split(EOL)
+        .split('\n')
         .filter(line => /=/i.test(line))
         .filter(line => !line.startsWith('#'))
         .map(line => {

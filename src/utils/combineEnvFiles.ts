@@ -7,7 +7,7 @@ export type ResultData = {
     }
 };
 
-const isSecretKey = (str: string) => str.length > MAX_LENGTH_TO_KEY;
+export const isSecretKey = (str: string) => str.length > MAX_LENGTH_TO_KEY;
 
 const collectData = (objects: (EnvData[] | undefined)[]) => {
     const result: ResultData = {};

@@ -2,7 +2,7 @@ import * as vscode from 'vscode';
 import { ResultData } from "./utils/combineEnvFiles";
 import { getWorkspace } from "./utils/getWorkspace";
 import { writeFileSync } from 'fs';
-import {generateTypes} from "./utils/generateTypes";
+import { generateTypes } from "./utils/generateTypes";
 
 
 export const processImportMetaEnvGeneratorCommand = async (envVars: ResultData) => {

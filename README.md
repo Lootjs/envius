@@ -4,7 +4,7 @@ VSCode Extension for better experience with dot files.
 
 Just edit your .env files and get typescript types for your environment variables.
 
-[envius-demo.gif](https://postimg.cc/MnFpxD84)
+[![envius-demo.gif](https://i.postimg.cc/LsHYtCQH/envius-demo.gif)](https://postimg.cc/MnFpxD84)
 
 # Features
 - Autocomplete env variables
